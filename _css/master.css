@@ -1,0 +1,75 @@
+main {
+    margin-top: 120px;
+}
+
+h1 {
+    font-family: 'Khand', sans-serif;
+}
+
+h1:before {
+    content: "______";
+    padding-top: 20px;
+    position: absolute;
+}
+
+#hotel .carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+}
+
+#modalQuartos .carousel-inner img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title, .card-localizacao p, .card-detalhes p {
+    font-family: 'Sniglet', cursive;
+}
+
+.card-sobre {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-sobre, .card-localizacao p, .card-detalhes p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+    #hotel .carousel-inner img {
+        height: 250px;
+    }
+
+    #modalQuartos .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #hotel .carousel-inner img {
+        height: 185px;
+    }
+
+    #modalQuartos .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hotel .carousel-inner img {
+        height: 280px;
+    }
+
+    #modalQuartos .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #hotel .carousel-inner img {
+        height: 250px;
+    }
+
+    #modalQuartos .carousel-inner img {
+        height: 250px;
+    }
+}
